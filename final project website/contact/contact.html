@@ -16,13 +16,13 @@
 
   </head>
 
-<!-- Begin nav -->
+<!-- begin nav -->
 <div class="nav">
 <ul class="menu menu-hover-lines">
 <li><a href="..\index.html">Home</a></li>
 <li><a href="..\signup\signuppage.html">Join Today</a></li>
-<li class="active"><a href="#">Help</a></li>
-<li><a href="..\contact\contact.html">Contact</a></li>
+<li><a href="..\help\help.html">Help</a></li>
+<li class="active"><a href="#">Contact</a></li>
 <li><a href="..\aboutus\aboutus.html">About Us</a></li>
 </ul>
 </div>
@@ -33,14 +33,36 @@
 
 <!-- begin content -->
 
-<h3>FAQ</h3>
+<section class="contact-us-section">
+  <div class="row medium-unstack">
+    <div class="columns contact-us-section-left">
+      <h1 class="contact-us-header">Get In Touch</h1>
+      <div class="responsive-embed">
+        <img src="https://maps.googleapis.com/maps/api/staticmap?center=campbell&zoom=13&scale=false&size=600x300&maptype=roadmap&sensor=false&format=png&visual_refresh=true" alt="Google Map of campbell" alt="" />
+      </div>
 
+<div class="paragraph">
+<h5>Call, Send Mail, Come Visit, or simply Email Us</h5>
+<p>Either way, we make it easy for you to reach us.</p>
+</div>
 
-<h6><strong>Question:</strong>Why is SUPERB so awesome?</h6>
-<p>We just try and give our supporters the best content without forcing them to compromise</p>
-
-<h6><strong>Question:</strong>Who are you guys?</h6>
-<a href="..\About-Us\about-us.html"><p>About Us</a></p>
+    <div class="columns contact-us-section-right">
+      <h1 class="contact-us-header">Mail Us</h1>
+      <form class="contact-us-form">
+        <input type="text" placeholder="Full name">
+        <input type="email" placeholder="Email">
+        <textarea name="message" id="" rows="12" placeholder="Type your message here"></textarea>
+        <div class="contact-us-form-actions">
+          <input type="submit" class="button" value="Send it"/></a>
+          <div>
+            <label for="FileUpload" class="button contact-us-file-button">Attach Files</label>
+            <input type="file" id="FileUpload" class="show-for-sr">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
 
 
 
@@ -54,10 +76,7 @@
 
 
 
-
-
-<!-- begin footer -->
-
+<!-- Begin footer -->
 <div class="footer">
 <footer class="responsive-blog-footer">
   <div class="row">
@@ -89,10 +108,7 @@
 </div>
 
 
-
 <!-- end footer -->
-
-
 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
   <script src="js/vendor/jquery.js"></script>
